@@ -1,0 +1,135 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-24T10:25:54.532Z",
+        "line": 17,
+        "name": "Cricket bats",
+        "description": "",
+        "id": "cal-test;cricket-bats;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11237000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have \"2\" cricket bats of",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepdefinition.input(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "brand",
+                  "willow"
+                ]
+              },
+              {
+                "cells": [
+                  "Reebok",
+                  "ew"
+                ]
+              },
+              {
+                "cells": [
+                  "Spartan",
+                  "kw"
+                ]
+              },
+              {
+                "cells": [
+                  "SG",
+                  "ew"
+                ]
+              },
+              {
+                "cells": [
+                  "SS",
+                  "kw"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-24T10:25:54.613Z",
+        "line": 18,
+        "name": "Cricket bats",
+        "description": "",
+        "id": "cal-test;cricket-bats;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4864100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have \"3\" cricket bats of",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepdefinition.input(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "brand",
+                  "willow"
+                ]
+              },
+              {
+                "cells": [
+                  "Reebok",
+                  "ew"
+                ]
+              },
+              {
+                "cells": [
+                  "Spartan",
+                  "kw"
+                ]
+              },
+              {
+                "cells": [
+                  "SG",
+                  "ew"
+                ]
+              },
+              {
+                "cells": [
+                  "SS",
+                  "kw"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "cal test",
+    "description": " calc functionality",
+    "id": "cal-test",
+    "keyword": "Feature",
+    "uri": "classpath:cucumberdatatable/calc.feature",
+    "tags": []
+  }
+]
